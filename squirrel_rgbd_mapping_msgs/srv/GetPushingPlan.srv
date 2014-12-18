@@ -1,6 +1,6 @@
 geometry_msgs/Pose2D start
 geometry_msgs/Pose2D goal
-geometry_msgs/Polygon object
+string object_id
 ---
 nav_msgs/Path plan
 # other info needed?

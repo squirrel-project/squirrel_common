@@ -15,7 +15,7 @@
       </visual>
     </link>
 
-    <joint name="fixed_base_motor1" type="fixed">
+    <joint name="baserot" type="revolute">
       <parent link="base"/>
       <child link="motor1"/>
       <axis xyz="0 0 1" />

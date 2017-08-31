@@ -2,6 +2,29 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+* Merge pull request `#175 <https://github.com/squirrel-project/squirrel_common/issues/175>`_ from bajo/viewcontroller
+  Add message definitions for new Viewcontroller
+* add messages for view controller
+* Contributors: Markus Bajones, Nadia Hammoudeh García
+
+0.0.23 (2017-02-13)
+-------------------
+* fix type error
+* renamed soft_hand_description package to softhand_description
+* necessary fixes as proposed by Nadia
+* Contributors: Philipp Zech, ipa-nhg
+
+0.0.22 (2016-09-28)
+-------------------
+
+0.0.21 (2016-09-15)
+-------------------
+* Merge remote-tracking branch 'origin/indigo_dev' into indigo_dev
+* added squirrel dynamic filkter msgs
+* Contributors: Ayush Dewan, Federico Boniardi
+
 0.0.20 (2016-09-07)
 -------------------
 * cleaning package.xml and CMakeLists

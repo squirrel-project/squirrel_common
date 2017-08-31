@@ -2,6 +2,20 @@
 Changelog for package robotino_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+
+0.0.23 (2017-02-13)
+-------------------
+* review cmakelists
+* Contributors: ipa-nhg
+
+0.0.22 (2016-09-28)
+-------------------
+
+0.0.21 (2016-09-15)
+-------------------
+
 0.0.20 (2016-09-07)
 -------------------
 * Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc

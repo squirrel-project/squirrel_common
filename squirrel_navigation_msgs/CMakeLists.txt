@@ -47,20 +47,19 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  GlobalPlannerStats.msg
   CellMSG.msg
   ObjectMSG.msg
   ObjectBufferMSG.msg
-  ScanSafetyObservation.msg)
+)
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  BrakeRobot.srv
+  PlannerUpdate.srv
   ClutterInfo.srv
   ClutterPlanner.srv
-  ClearCostmapRegion.srv
-  GetObstaclesMap.srv
-  GetPathClearance.srv)
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -74,7 +73,8 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs  # Or other packages containing msgs
   std_msgs
-  nav_msgs)
+  nav_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##

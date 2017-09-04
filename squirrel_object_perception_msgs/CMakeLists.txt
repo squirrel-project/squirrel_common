@@ -51,6 +51,7 @@ add_service_files(
   SegmentVisualizationOnce.srv
   SegmentsToObjects.srv
   StartObjectTracking.srv
+  StartRobotTracking.srv
   StopObjectTracking.srv
   StartInstanceTracking.srv
   StopInstanceTracking.srv
